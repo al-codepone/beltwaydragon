@@ -16,3 +16,13 @@ h2 {
     font-size: 1em;
     color: #888888;
 }
+
+.blog-post h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.blog-info {
+    padding-top: 0;
+    margin-top: 0;
+}

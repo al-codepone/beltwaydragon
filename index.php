@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<?=get_stylesheet_uri()?>"/>
     <?php wp_head()?>
 </head>
 <body>

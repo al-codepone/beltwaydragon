@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <?php wp_head()?>
+    <?wp_head()?>
 </head>
 <body>
     <div id="header">
-        <h1><?php bloginfo('name')?></h1>
-        <h2><?php bloginfo('description')?></h2>
+        <h1><?bloginfo('name')?></h1>
+        <h2><?bloginfo('description')?></h2>
     </div>
     <?=$t_content?>
-<?php wp_footer()?>
+<?wp_footer()?>
 </body>
 </html>

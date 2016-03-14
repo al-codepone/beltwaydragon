@@ -5,12 +5,12 @@ Version: 0.1.0
 Tags: dark-blue, red
 */
 
-h1 {
-    padding-bottom: 0;
-    margin-bottom: 0;
+#header h1 {
+    padding: 0 0;
+    margin: 0 0;
 }
 
-h2 {
+#header h2 {
     padding-top: 0;
     margin-top: 0;
     font-size: 1em;

@@ -1,5 +1,7 @@
 <?php
 
+require get_template_directory() . '/src/beltwaydragon/html.php';
+
 add_action(
     'wp_enqueue_scripts',
     function() {

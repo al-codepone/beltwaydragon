@@ -1,4 +1,4 @@
 <?php
 
 $t_content = beltwaydragon\get_posts();
-include TEMPLATEPATH . '/template.php';
+include get_template_directory() . '/template.php';

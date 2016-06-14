@@ -8,7 +8,7 @@ function get_posts() {
     while(have_posts()) {
         the_post(); ?>
         <div class="blog-post">
-            <h3><?the_title()?></h3>
+            <h3><a href="<?the_permalink()?>"><?the_title()?></a></h3>
             <p class="blog-info"><?the_date()?> by <?the_author()?></p>
             <?the_content()?>
         </div> <?php

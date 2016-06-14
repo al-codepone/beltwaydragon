@@ -1,4 +1,4 @@
 <?php
 
-$t_content = beltwaydragon\home_content();
+$t_content = beltwaydragon\single_post_content();
 include get_template_directory() . '/src/beltwaydragon/template.php';

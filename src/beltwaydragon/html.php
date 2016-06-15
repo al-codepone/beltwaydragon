@@ -21,6 +21,10 @@ function single_post_content() {
     if(have_posts()) {
         the_post();
         echo single_post_html();
+        wp_list_comments(
+            array(),
+            get_comments(array('post_id' => get_the_ID())));
+
         comment_form();
     }
     else {

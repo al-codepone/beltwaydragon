@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?wp_head()?>
+    <?=$t_head?>
 </head>
 <body>
     <div id="header">

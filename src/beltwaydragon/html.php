@@ -39,7 +39,7 @@ function single_post_html() {
     ob_start(); ?>
 
     <div class="blog-post">
-        <h3><a href="<?the_permalink()?>"><?the_title()?></a></h3>
+        <h2><a href="<?the_permalink()?>"><?the_title()?></a></h2>
         <p class="blog-info"><?the_date()?> by <?the_author()?></p>
         <?the_content()?>
     </div> <?php

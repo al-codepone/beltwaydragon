@@ -7,7 +7,7 @@
 <body>
     <div id="header">
         <h1><a href="<?bloginfo('wpurl')?>"><?bloginfo('name')?></a></h1>
-        <h2><?bloginfo('description')?></h2>
+        <span><?bloginfo('description')?></span>
     </div>
     <?=$t_content?>
 <?wp_footer()?>

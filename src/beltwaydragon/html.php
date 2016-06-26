@@ -11,6 +11,20 @@ function home_content() {
         echo single_post_html();
     }
 
+    $page_links = array();
+
+    if($prev_link = get_previous_posts_link('< Previous Page')) {
+        $page_links[] = $prev_link;
+    }
+
+    if($next_link = get_next_posts_link('Next Page >')) {
+        $page_links[] = $next_link;
+    }
+
+    if($page_links) {
+        printf('<div>%s</div>', implode(' ', $page_links));
+    }
+
     return ob_get_clean();
 }
 

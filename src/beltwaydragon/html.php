@@ -13,16 +13,22 @@ function home_content() {
 
     $page_links = array();
 
-    if($prev_link = get_previous_posts_link('< Previous Page')) {
-        $page_links[] = $prev_link;
+    if($prev_link = get_previous_posts_link('< Previous')) {
+        $page_links[] = '<span class="page-nav-prev">' .
+            $prev_link .
+            '</span>';
     }
 
-    if($next_link = get_next_posts_link('Next Page >')) {
-        $page_links[] = $next_link;
+    if($next_link = get_next_posts_link('Next >')) {
+        $page_links[] = '<span class="page-nav-next">' .
+            $next_link .
+            '</span>';
     }
 
     if($page_links) {
-        printf('<div>%s</div>', implode(' ', $page_links));
+        printf(
+            '<div class="page-nav">%s</div>',
+            implode($page_links));
     }
 
     return ob_get_clean();

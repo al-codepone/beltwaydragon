@@ -1,6 +1,22 @@
+#main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 1em 0;
+    background: #F0CCB1;
+    text-align: center;
+}
+
 #header h1 {
-    padding: 0 0;
-    margin: 0 0;
+    padding: 0;
+    margin: 0;
+}
+
+#header h1 a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .blog-post h2 {
@@ -11,4 +27,9 @@
 .blog-info {
     padding-top: 0;
     margin-top: 0;
+}
+
+h2 a {
+    color: #1C6BEA;
+    text-decoration: none;
 }

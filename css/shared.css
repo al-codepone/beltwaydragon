@@ -38,6 +38,8 @@
     color: #d7d7d7;
     background: #222222;
     padding: 6px;
+    white-space: pre-wrap;
+    overflow: hidden;
 }
 
 .blog-post em {

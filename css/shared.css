@@ -24,12 +24,27 @@
     margin-bottom: 0;
 }
 
+.blog-post h2 a {
+    color: #1C6BEA;
+    text-decoration: none;
+}
+
 .blog-info {
     padding-top: 0;
     margin-top: 0;
 }
 
-h2 a {
+.blog-post pre {
+    color: #d7d7d7;
+    background: #222222;
+    padding: 6px;
+}
+
+.blog-post em {
+    background: #dddddd;
+    font-style: normal;
+}
+
+.blog-post a {
     color: #1C6BEA;
-    text-decoration: none;
 }

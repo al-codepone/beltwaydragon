@@ -60,7 +60,7 @@ function single_post_html() {
 
     <div class="blog-post">
         <h2><a href="<?the_permalink()?>"><?the_title()?></a></h2>
-        <p class="blog-info"><?the_date()?> by <?the_author()?></p>
+        <p class="blog-info">by <?the_author()?> on <?the_date()?></p>
         <?the_content()?>
     </div> <?php
 

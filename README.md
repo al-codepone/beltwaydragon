@@ -10,7 +10,7 @@ for my WordPress programming blog here:
 
 <http://ikitovagn.com/blog/>
 
-# Installation
+## Installation
 
 If you want to use this theme, then drop all the files here
 into a `wp-content/themes/beltwaydragon` directory. Then select
